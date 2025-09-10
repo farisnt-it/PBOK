@@ -1,39 +1,32 @@
-# post test 1 pbo
+# Posttest1 - Aplikasi CRUD Koleksi Tanaman (Java Console)
 
-# Program CRUD Koleksi Tanaman
-
-## Deskripsi Singkat
 Program ini adalah aplikasi sederhana berbasis console untuk mengelola koleksi tanaman.  
-Program menggunakan **Java** dengan `ArrayList` untuk menyimpan data, serta menyediakan fitur **CRUD** (Create, Read, Update, Delete).  
-Tema yang dipilih adalah **koleksi tanaman**, sehingga pengguna dapat menambah, melihat, mengubah, dan menghapus daftar tanaman yang mereka miliki.
+Program menggunakan *Java* dengan ArrayList untuk menyimpan data, serta menyediakan fitur *CRUD* (Create, Read, Update, Delete).  
+Tema yang dipilih adalah *koleksi tanaman*, sehingga pengguna dapat menambah, melihat, mengubah, dan menghapus daftar tanaman yang mereka miliki.
 
-## Fitur Program
-1. **Tambah Tanaman** → Menambahkan data tanaman baru ke koleksi.
-2. **Lihat Tanaman** → Menampilkan seluruh daftar tanaman dalam koleksi.
-3. **Ubah Tanaman** → Mengedit data tanaman berdasarkan nomor urut.
-4. **Hapus Tanaman** → Menghapus tanaman dari daftar.
-5. **Keluar** → Mengakhiri program.
+## Fitur
 
-## Alur Program
-<img width="879" height="789" alt="image" src="https://github.com/user-attachments/assets/74f3397d-307c-49e7-94fb-d795a7f1e80b" />
-<img width="864" height="308" alt="image" src="https://github.com/user-attachments/assets/2868b674-3025-4994-b035-a3af292ca836" />
+- *Tambah Tanaman:* Menambah nama tanaman baru ke koleksi
+- *Lihat Tanaman:* Melihat daftar tanaman yang sudah ditambahkan
+- *Ubah Tanaman:* Mengubah nama tanaman yang sudah ada
+- *Hapus Tanaman:* Menghapus tanaman dari daftar
+- *Keluar:* Menutup aplikasi
 
-1. Saat dijalankan, program menampilkan menu utama.
-2. Pengguna memilih menu dengan input angka (1–5).
-3. Program akan menjalankan fungsi sesuai menu:
-   - **1 (Tambah)** → Input nama tanaman, lalu simpan di `ArrayList`.
-     <img width="706" height="196" alt="image" src="https://github.com/user-attachments/assets/815b6134-e74e-410c-8309-260b5b7d5202" />
+##  Alur Program
+1. Program menampilkan **menu utama** berisi pilihan fitur.  
+2. Pengguna memilih menu dengan memasukkan angka (1–5).  
+3. Program menjalankan aksi sesuai menu:
+   - **1 → Tambah Tanaman**
+     <img width="921" height="195" alt="image" src="https://github.com/user-attachments/assets/d9fd0a3a-410f-45ec-877e-52be9a0f9d0e" />
 
-   - **2 (Lihat)** → Menampilkan daftar tanaman dengan perulangan.
-     <img width="869" height="483" alt="image" src="https://github.com/user-attachments/assets/47bee000-85d8-46d4-a582-5b2f68704f81" />
+   - **2 → Lihat Tanaman**
+     <img width="921" height="300" alt="image" src="https://github.com/user-attachments/assets/4f92e3f1-6f02-402c-9d36-618ecba26fa4" />
 
-   - **3 (Ubah)** → Menampilkan daftar, pengguna pilih nomor, lalu input nama baru.
-     <img width="855" height="303" alt="image" src="https://github.com/user-attachments/assets/66584d94-f9b9-4a5d-b181-d68fd1ad4122" />
+   - **3 → Ubah Tanaman**
+     <img width="915" height="488" alt="image" src="https://github.com/user-attachments/assets/3a710359-3879-43c1-a223-9861abddcfc1" />
 
-   - **4 (Hapus)** → Menampilkan daftar, pengguna pilih nomor, lalu hapus dari `ArrayList`.
-     <img width="893" height="456" alt="image" src="https://github.com/user-attachments/assets/3a62e812-e356-4c96-a821-0775752ad38d" />
+   - **4 → Hapus Tanaman**
+     <img width="954" height="464" alt="image" src="https://github.com/user-attachments/assets/6eaac809-b6a2-42c1-9019-dbd226ff00ec" />
 
-   - **5 (Keluar)** → Program berhenti.
-     
-4. Setelah suatu aksi selesai, program kembali ke menu utama, kecuali pengguna memilih keluar.
-
+   - **5 → Keluar**  
+4. Setelah setiap aksi, program kembali ke menu utama, kecuali jika pengguna memilih keluar.
